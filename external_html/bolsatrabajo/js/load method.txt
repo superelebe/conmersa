@@ -1,0 +1,1 @@
+$("#contenedor_banner").load("external_html/banner/index.html");

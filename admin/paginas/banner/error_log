@@ -1,0 +1,24 @@
+[02-Jun-2017 15:30:43 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:30:43 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:02 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:02 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:03 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:03 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:10 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:10 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:16 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:16 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:20 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:20 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:23 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:23 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:33 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:31:33 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:38:29 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:38:29 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:39:10 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:39:10 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:39:11 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:39:11 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:39:39 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70
+[02-Jun-2017 15:39:39 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/banner/index.php on line 70

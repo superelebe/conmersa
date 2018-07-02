@@ -1,0 +1,26 @@
+[10-Apr-2017 13:03:55 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'elebegr1_conmers'@'localhost' (using password: YES) in /home1/elebegr1/public_html/conmersa.com/2017/admin/incluir/class_mysqli.php on line 33
+[10-Apr-2017 13:03:55 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2017/admin/incluir/class_mysqli.php on line 35
+[10-Apr-2017 13:03:55 America/Denver] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2017/admin/incluir/class_mysqli.php on line 45
+[10-Apr-2017 13:13:10 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'elebegr1_conmers'@'localhost' (using password: YES) in /home1/elebegr1/public_html/conmersa.com/2017/admin/incluir/class_mysqli.php on line 33
+[10-Apr-2017 13:13:10 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2017/admin/incluir/class_mysqli.php on line 35
+[10-Apr-2017 13:13:10 America/Denver] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2017/admin/incluir/class_mysqli.php on line 45
+[30-Jun-2018 02:21:37 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 33
+[30-Jun-2018 02:21:37 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 35
+[30-Jun-2018 02:21:37 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[30-Jun-2018 02:21:37 America/Chicago] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[02-Jul-2018 10:34:28 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 33
+[02-Jul-2018 10:34:28 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 35
+[02-Jul-2018 10:34:28 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[02-Jul-2018 10:34:28 America/Chicago] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[02-Jul-2018 10:38:01 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 33
+[02-Jul-2018 10:38:01 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 35
+[02-Jul-2018 10:38:01 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[02-Jul-2018 10:38:01 America/Chicago] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[02-Jul-2018 10:38:46 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 33
+[02-Jul-2018 10:38:46 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 35
+[02-Jul-2018 10:38:46 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[02-Jul-2018 10:38:46 America/Chicago] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[02-Jul-2018 10:45:36 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 33
+[02-Jul-2018 10:45:36 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 35
+[02-Jul-2018 10:45:36 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45
+[02-Jul-2018 10:45:36 America/Chicago] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home1/elebegr1/public_html/conmersa.com/2018/admin/incluir/class_mysqli.php on line 45

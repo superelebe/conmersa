@@ -1,0 +1,113 @@
+
+
+@keyframes rotate360 {
+100% {
+    transform: rotate(360deg);
+     -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+}
+}
+@keyframes rotatemenos360 {
+100% {
+    transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg); /* IE 9 */
+    -webkit-transform: rotate(-360deg); /* Chrome, Safari, Opera */
+}
+
+
+}
+#info_conmersa {
+    animation: 5s linear 0s normal none infinite running rotate360;
+    -webkit-animation: 5s linear 0s normal none infinite running rotate360;
+    -webkit-animation-name: rotate360;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: running;
+}
+
+
+.cont_tool {
+    animation: 5s linear 0s normal none infinite running rotatemenos360;
+    -webkit-animation: 5s linear 0s normal none infinite running rotatemenos360;
+    -webkit-animation-name: rotatemenos360;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: running;
+}
+
+
+
+#info_conmersa:hover {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused; /* Safari 4.0 - 8.0 */
+}
+#info_conmersa:hover .cont_tool {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused; /* Safari 4.0 - 8.0 */
+}
+#info_conmersa {
+    height: 270px;
+margin-left: 0;
+margin-top: 140px;
+width: 288px;
+}
+#c_medio {
+    display: block;
+margin-left: 75px;
+margin-top: 205px;
+position: absolute;
+width: 144px;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+#info_conmersa {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+#c_medio {
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 54px;
+    position: absolute;
+    width: 100px;
+}
+}
+@media (width: 768px) {
+#c_medio {
+    display: block;
+    margin-left: 28%;
+    margin-right: auto;
+    margin-top: 50px;
+    position: absolute;
+    width: 100px;
+}
+}
+@media screen and (max-width: 480px) {
+#milky_bottle {
+    margin-left: 20px;
+    margin-top: 0;
+    width: 90%;
+}
+#info_conmersa {
+    height: 240px;
+    margin-left: 20px;
+    width: 240px;
+}
+#c_medio {
+    display: block;
+    margin-left: 50px;
+    margin-top: 34px;
+    position: absolute;
+    width: 160px;
+}
+}

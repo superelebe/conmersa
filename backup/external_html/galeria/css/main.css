@@ -1,0 +1,158 @@
+
+#contenedor_thumbs {
+}
+#contenedor_thumbs div {
+    border: 8px solid white;
+    border-radius: 5px;
+    box-shadow: 3px 4px 6px #666;
+    height: 120px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 125px;
+}
+#contenedor_thumbs div a {
+}
+#contenedor_thumbs div a img {
+    left: 0;
+    position: absolute;
+    width: 190%;
+}
+.thumbnail_cont {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px grey;
+    display: block;
+    height: 80px;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 4px;
+    transition: border 0.2s ease-in-out 0s;
+}
+#background_galeria {
+    display: block;
+    opacity: 0.15;
+    position: absolute;
+    width: 120%;
+    z-index: -2;
+}
+#gradient_mask {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(169, 169, 169, 0) 39%, rgba(255, 255, 255, 0.5) 59%, rgb(255, 255, 255) 79%) repeat scroll 0 0;
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+#background_galeria img {
+    width: 120%;
+}
+#carousel_galeria {
+    clip-path: url("#svgPath");
+    height: 390px;
+    margin-bottom: -220px;
+    overflow: hidden;
+}
+#svgPath {
+}
+.galeria_control {
+    border-radius: 10000px;
+    height: 70px;
+    margin: 110px 20px 0 40px;
+    padding: 0;
+    width: 70px;
+}
+#galeria_l {
+}
+#galeria_r {
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 1200px) {
+#contenedor_thumbs {
+}
+#contenedor_thumbs div {
+}
+#contenedor_thumbs div a {
+}
+#contenedor_thumbs div a img {
+}
+.galeria_control {
+}
+#carousel_galeria {
+}
+}
+@media (max-width: 992px) {
+#contenedor_thumbs {
+}
+#contenedor_thumbs div {
+}
+#contenedor_thumbs div a {
+}
+#contenedor_thumbs div a img {
+}
+.galeria_control {
+}
+#carousel_galeria {
+}
+}
+@media screen and (max-width: 768px) {
+#contenedor_thumbs {
+}
+#contenedor_thumbs div {
+}
+#contenedor_thumbs div a {
+}
+#contenedor_thumbs div a img {
+}
+.thumbnail_cont {
+    height: 300px;
+}
+#carousel_galeria {
+    clip-path: none;
+    height: 200px;
+    margin-bottom: -50px;
+    overflow: hidden;
+}
+.galeria_control {
+    margin-top: 63px;
+}
+}
+@media (width: 768px) {
+#contenedor_thumbs {
+}
+#contenedor_thumbs div {
+}
+#contenedor_thumbs div a {
+}
+#contenedor_thumbs div a img {
+}
+.galeria_control {
+}
+#carousel_galeria {
+}
+}
+@media screen and (max-width: 480px) {
+#contenedor_thumbs {
+}
+#contenedor_thumbs div {
+}
+#contenedor_thumbs div a {
+}
+#contenedor_thumbs div a img {
+}
+.galeria_control {
+}
+#carousel_galeria {
+}
+#galeria_l {
+}
+#galeria_r {
+    left: auto;
+    position: absolute;
+    right: -5%;
+}
+}

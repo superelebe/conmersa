@@ -1,0 +1,52 @@
+a.tooltips {
+  position: relative;
+  display: inline;
+
+}
+a.tooltips span {
+  font-family: "Effra";
+  font-weight: 900;
+  font-size: 25px;
+  position: absolute;
+  width:auto;
+  color: #002C50;
+
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips span:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12px;
+  width: 0; height: 0;
+   -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px); 
+
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+   -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px); 
+
+}
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}
+

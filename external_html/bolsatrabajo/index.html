@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="external_html/bolsatrabajo/css/main.css">
+
+<script type="text/javascript" src="external_html/bolsatrabajo/js/main_bolsa.js"></script>
+
+
+<!-- <script type="text/javascript" src="external_html/banner/js/jquery-3.1.0.min.js"></script> -->
+
+
+<div class="col-md-8 col-md-offset-4">
+
+	 <div class="form_contacto" id="form2">
+                   <h1 class="sub_heavy_vacantes">Lista de Vacantes</h1>
+                    <ul id="lista_vacante"></ul>
+                    <div class="clear"></div>
+                     <ul id="paginacion_content"></ul>
+
+                    <form id="form_vacante" method="post" action="external_html/bolsatrabajo/control.php"  name="contact_form">
+
+                    <input type="hidden" class="seccion" name="seccion" value="crear_solicitud"/>    
+
+                  
+                                        
+                        <h1>UNETE A NUESTRO EQUIPO DE TRABAJO</h1>
+                          
+                        <div class="ficha">
+                          <div class="">
+                            <label for="name">NOMBRE</label><br>
+                            <input type="text" placeholder="Escribe tu Nombre" class="validate[required,custom[nombre]]" name="nombre" style="width:50%;"/>
+                            <br><br>
+                          </div>
+
+                          <div class="">
+                            <label>MAIL</label><br>
+                            <input type="text" placeholder="Escribe tu Mail" class="validate[required,custom[mail]]" name="email" style="width:50%;"/>
+                            <br><br>
+                          </div>
+
+                          <div class="">
+                            <label>TEL.</label><br>
+                            <input type="text" placeholder="Escribe tu teléfono" class="validate[required]" name="tel" style="width:50%;"/>
+                            <br><br>
+                          </div>
+                            
+                          <div class="">
+                              <label>MENSAJE</label><br>
+                              <textarea type="text" id="mensaje_vacante" class="validate[required]" placeholder="Escribe tu mensaje" name="msj" rows='8'style="width:50%;"/></textarea>
+                          <br><br>
+                          </div>
+
+                          <div class="">
+                              <label>Imagenes:</label><br>
+                              <p class="small">Seleccione el archivo WORD o PDF:
+                              <input type="file" class="validate[required]" name="doc_1" id="doc_1"/> </p>
+                          </div>
+
+                         
+                          <div class="">
+                            <input type="submit" src="images/btn_enviar.png" alt="Submit Form" value="Enviar datos"/>
+                          </div>
+                        </div>
+
+                    </form>  
+
+</div>
+
+<div class="row" id="info_banner_home">
+    <div id="modulo_1" class="col-sm-offset-1 col-sm-11 col-md-offset-1 col-md-11 col-lg-offset-5 col-lg-7">
+        <div class="col-sm-12">
+           <!--  <img src="images/logo_blanco.png" id="logo_bl" alt="logo_conmersa_blanco"> -->
+           <!--  <h2 id="tit_bl_light">SOMOS UNA EMPRESA<br><span class="tit_bl_strong">100% COMPROMETIDA<br>CON NUESTROS CLIENTES</span></h2> -->
+            <!-- <h2 class="tit_bl_strong">100% COMPROMETIDA</h2>
+            <h2 class="tit_bl_strong">CON NUESTROS CLIENTES</h2> -->
+            <!-- <p class="bl_parr">Grupo <strong>CONMERSA</strong>  es una empresa mexicana fundada en el año 2000. Nuestro propósito es ofrecerle los mejores servicios en maquila de promociones armadas, presentaciones  especiales (tiendas club), etiquetado de productos y manejo de líneas de empacado para cualquier variedad de producto; con la finalidad de satisfacer las necesidades de todo tipo de industria o empresa. Que a su vez dichas maquilas sirvan para el crecimiento de nuestros clientes,  proveedores y de nosotros mismos. </p> -->
+            <!-- <a id="cono_btn_vid" href="#cert">
+                <div id="con_mas">CONOCER MÁS</div>
+            </a> -->
+        </div>
+                    <!-- <div class="col-sm-offset-3 col-sm-3 col-lg-offset-1 col-lg-5">
+                        <a href="#" class="launch-modal" data-modal-id="modal-video_uno">
+                            <img src="images/video_icon.png" class="" id="el_vid_icon" alt="icono_video">
+                        </a>
+                    </div> -->
+    </div>
+</div>
+
+

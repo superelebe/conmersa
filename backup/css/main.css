@@ -1,0 +1,1910 @@
+
+@font-face {
+    font-family: "Effra Bold";
+    src: url("../css/fonts/effra/font_face/ba2d1272827c166ad5905d299caa1096.eot?#iefix") format("embedded-opentype"), url("../css/fonts/effra/font_face/ba2d1272827c166ad5905d299caa1096.woff2") format("woff2"), url("../css/fonts/effra/font_face/ba2d1272827c166ad5905d299caa1096.woff") format("woff"), url("../css/fonts/effra/font_face/ba2d1272827c166ad5905d299caa1096.ttf") format("truetype"), url("../css/fonts/effra/font_face/ba2d1272827c166ad5905d299caa1096.svg#Effra Bold") format("svg");
+}
+@font-face {
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Effra"), url("../css/fonts/effra/effra_regular/Effra_Std_Rg.woff") format("woff");
+}
+@font-face {
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../css/fonts/effra/effra_heavy/EffraHeavy-Regular.eot?#iefix") format("embedded-opentype"), url("../css/fonts/effra/effra_heavy/EffraHeavy-Regular.woff") format("woff"), url("../css/fonts/effra/effra_heavy/EffraHeavy-Regular.ttf") format("truetype");
+}
+#link_sexta_gama {
+    display: block;
+    height: 800px;
+    position: absolute;
+    width: 100%;
+}
+.links_externos {
+    display: block;
+    height: 800px;
+    position: relative;
+    width: 50%;
+}
+body {
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+}
+label {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+a, a:active, a:focus {
+    outline: medium none;
+}
+a img {
+    outline: 0 none;
+}
+img {
+    border: 0 none;
+}
+.btn_idioma {
+    background: skyblue none repeat scroll 0 0;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#carousel_main {
+    position: relative;
+    width: 100%;
+}
+#banner_r {
+    right: 0;
+}
+#contenedor_thumbs {
+    margin-top: 20px;
+}
+.hidden_all {
+    display: none;
+}
+#banda {
+    width: 110%;
+}
+#logo_tels {
+    display: block;
+    position: relative;
+}
+#forma_contacto {
+    display: block;
+    position: relative;
+}
+#logo_conta {
+    display: block;
+    margin-top: 40px;
+    width: 200px;
+}
+#img_bolsa {
+    padding-left: 0;
+}
+#los_controles_main {
+    z-index: 1;
+}
+#whities {
+    color: #f4d110;
+    font-family: "Effra";
+    font-size: 45px;
+    font-weight: 900;
+}
+#whities_yell {
+    color: #f4d110;
+    font-family: "Effra";
+    font-size: 18px;
+}
+#menu {
+    background-color: #002c50;
+    border-color: transparent;
+}
+#contacto {
+    background-color: #002c50;
+    margin-bottom: 49px;
+}
+.al_cien {
+    width: 100%;
+}
+#el_footer {
+    background-color: #002c50;
+    border-color: transparent;
+}
+#det_cont {
+    display: block;
+    position: absolute;
+}
+#certificaciones {
+    background-image: url("../images/trian_lado.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 114% auto;
+    display: block;
+    height: 1052px;
+    position: relative;
+}
+.centro {
+    text-align: center;
+}
+#div_car {
+    min-width: 850px;
+}
+.derecha {
+    border-right: 1px solid dodgerblue;
+    float: right;
+    padding-left: 21px;
+    padding-right: 20px;
+    text-align: right;
+}
+.bl_text {
+    color: white;
+    font-family: "Effra";
+    font-size: 25px;
+}
+.bl_parr {
+    color: white;
+    font-family: "Effra";
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 0;
+}
+.parr_azul {
+    color: #2e353a;
+    font-family: "Effra";
+    font-size: 10px;
+}
+.pleca_mini {
+    background-color: white;
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 80px;
+}
+.pleca_mini_mini {
+    background-color: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 30px;
+}
+#mini_pleca_azul {
+    background-color: #00509b;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 30px;
+}
+.pleca_negra {
+    background-color: #2e353a;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 30px;
+}
+.grow:hover {
+    transform: scale(1.3);
+}
+.shadow {
+    box-shadow: 2px 2px 2px #011e3e;
+}
+.siempre_cien {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.bolsa {
+    width: 160px;
+}
+.centrado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.azul {
+    color: #00509b;
+    font-family: "Effra Bold";
+}
+.parr {
+    color: black;
+    font-size: 14px;
+}
+#parr_footer {
+    color: #d2d2d2;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.parr_negro {
+    color: #2e353a;
+    font-size: 14px;
+}
+.sub_gris {
+    color: #4b4b4b;
+    font-family: "Effra Bold";
+    font-size: 18px;
+}
+#certificada_tit {
+    font-family: "Effra";
+    font-size: 95px;
+    font-weight: 900;
+}
+.light {
+    font-family: "Effra";
+    font-size: 75px;
+    font-weight: lighter;
+}
+#alta {
+    font-size: 75px;
+    font-weight: 900;
+    text-shadow: 4px 4px 2px rgb(150, 150, 150);
+}
+.shadow {
+    box-shadow: 2px 2px 2px #011e3e;
+}
+#info_empresa {
+    margin-top: 30px;
+}
+#modulo_1 {
+    display: block;
+    position: relative;
+}
+#modulo_2 {
+    display: block;
+    position: relative;
+}
+#modulo_3 {
+    display: block;
+    margin-top: 0;
+    position: relative;
+}
+#elemen_1 {
+    background-color: transparent;
+    background-image: url("../images/fondo_element_1.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 184% auto;
+    border-color: transparent;
+    display: block;
+    height: auto;
+    position: relative;
+}
+#modulo_4 {
+    background-color: transparent;
+    background-image: url("../images/fondo_2.jpg");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-color: transparent;
+    display: block;
+    height: 1043px;
+    position: relative;
+}
+#servicios {
+    background-color: transparent;
+    background-image: url("../images/fondo_3.jpg");
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: cover;
+    border-color: transparent;
+    height: auto;
+    margin-top: -18px;
+    padding-bottom: 150px;
+}
+#servicios_conmersa {
+    display: block;
+    margin-bottom: 145px;
+    position: relative;
+}
+#empa {
+    padding: 6px 0;
+}
+#empa_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#out_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#eti_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#group_force {
+    height: 160px;
+    margin-right: 0;
+    margin-top: -20px;
+    position: relative;
+    right: 0;
+    width: 100%;
+}
+#modulo_5 {
+    display: block;
+margin-top: -70px;
+position: relative;
+z-index: 1;
+}
+#modulo_6 {
+    display: block;
+    margin-top: -130px;
+    position: relative;
+}
+#modulo_7 {
+    display: block;
+    margin-top: 100px;
+    position: relative;
+}
+#info_gale {
+    display: block;
+    margin-top: 17%;
+    position: relative;
+}
+#carousel_galeria img {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+#modulo_9 {
+    display: block;
+    margin-top: 0;
+    position: relative;
+}
+#cert {
+    margin-top: 310px;
+}
+.parrafo_empresa {
+    font-family: "Effra";
+    font-size: 16px;
+}
+.sub {
+    color: #4b4b4b;
+    font-family: "Effra";
+    font-size: 17px;
+}
+.sub_parr {
+    color: #979797;
+    font-family: "Effra";
+    font-size: 18px;
+    margin-top: 0;
+    padding-left: 15px;
+}
+.sub_parr_centrado {
+    color: #979797;
+    font-family: "Effra";
+    font-size: 13px;
+    margin-top: 0;
+    padding-left: 15px;
+    text-align: center;
+}
+.sub_parr_strong {
+    color: #4b4b4b;
+    font-family: "Effra";
+    font-size: 10px;
+    margin-top: 6px;
+    padding-left: 15px;
+}
+#somos {
+    font-family: "Effra";
+    font-size: 38px;
+    line-height: 30px;
+}
+.strongs {
+    font-family: "Effra Bold";
+    font-size: 38px;
+    line-height: 32px;
+}
+#maquilas {
+    color: white;
+    font-family: "Effra";
+    font-size: 20px;
+}
+#maquilas_pleca {
+    margin-top: 30px;
+}
+.titulo_strong {
+    color: white;
+    font-family: "Effra";
+    font-size: 43px;
+    font-weight: 900;
+    line-height: 33px;
+}
+.titulo_light {
+    color: white;
+    font-family: "Effra";
+    font-size: 37px;
+    line-height: 30px;
+}
+.template_panel_tit {
+    margin-top: 100px;
+}
+#nom {
+    color: white;
+}
+.contenido_servicios {
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+.item_shadow {
+    border-radius: 1000px;
+    box-shadow: 1px 9px 5px 0;
+    display: block;
+    overflow: hidden;
+}
+.carousel-inner {
+}
+.template_panel_carousel {
+    height: 500px;
+    padding: 10px;
+}
+.carousel-control {
+    margin-top: 200px;
+}
+#nom_bullets {
+    color: white;
+    font-size: 23px;
+    list-style: outside none none;
+}
+#slogan_bullets {
+    height: auto;
+    min-height: 320px;
+    position: relative;
+    z-index: 0;
+}
+#lista_cert {
+    list-style: outside none none;
+}
+#nom2 {
+    color: white;
+}
+#nom3 {
+    color: white;
+}
+#nom4 {
+    color: white;
+}
+#left_arrow {
+    display: block;
+    margin-left: 100%;
+    margin-top: 126px;
+    position: absolute;
+}
+#right_arrow {
+    display: block;
+    margin-left: 0;
+    margin-top: 130px;
+    position: absolute;
+}
+#left_arrow2 {
+    display: block;
+    margin-left: 100%;
+    margin-top: 126px;
+    position: absolute;
+}
+#right_arrow2 {
+    display: block;
+    margin-left: 0;
+    margin-top: 130px;
+    position: absolute;
+}
+#left_arrow3 {
+    display: block;
+    margin-left: 100%;
+    margin-top: 126px;
+    position: absolute;
+}
+#right_arrow3 {
+    display: block;
+    margin-left: 0;
+    margin-top: 130px;
+    position: absolute;
+}
+#left_arrow4 {
+    display: block;
+    margin-left: 19px;
+    margin-top: 126px;
+    position: absolute;
+}
+#right_arrow4 {
+    display: block;
+    margin-left: 0;
+    margin-top: 130px;
+    position: absolute;
+}
+.texto_servi {
+    color: white;
+    font-family: "Effra";
+    font-size: 15px;
+    font-weight: 900;
+}
+.texto_servin {
+    color: white;
+    font-family: "Effra";
+    font-size: 12px;
+    font-weight: 900;
+    text-align: right;
+    text-shadow: 4px 4px 2px rgb(150, 150, 150);
+}
+#arma {
+    font-size: 13px;
+    padding: 9px 0;
+}
+#outso {
+    font-size: 13px;
+    padding: 9px 0;
+}
+#etiquet {
+    font-size: 13px;
+    padding: 9px 0;
+}
+#text_serv_uno {
+    margin-top: -80px;
+}
+#text_serv_dos {
+    margin-top: -80px;
+}
+#text_serv_tres {
+    margin-top: -80px;
+}
+#fondo_empacado {
+    display: block;
+    position: relative;
+}
+#cargador {
+    float: right;
+    margin-right: 6px;
+    margin-top: -23px;
+    width: 50px;
+}
+#info_empa {
+    display: block;
+    margin-left: 60px;
+    margin-top: 24px;
+    position: absolute;
+}
+.list_azul {
+    color: #00509b;
+    font-family: "Effra";
+    font-size: 14px;
+    font-weight: 900;
+}
+.conectamos {
+    color: white;
+    font-family: "Effra Bold";
+    font-size: 30px;
+    line-height: 27px;
+}
+.marketing {
+    color: white;
+    font-family: "Effra";
+    font-size: 136px;
+    font-weight: 900;
+    line-height: 80px;
+}
+.topi {
+    height: 300px;
+}
+#estra {
+    color: white;
+    font-family: "Effra";
+    font-size: 30px;
+}
+#milk_bottles {
+    margin-left: -160px;
+}
+.sub_heavy {
+    color: #2e353a;
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 900;
+}
+.sub_heavy_azul {
+    color: #2e353a;
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 900;
+}
+.icon_vid {
+    display: block;
+    margin-left: 125px;
+    margin-top: 64px;
+    position: absolute;
+    width: 30%;
+    z-index: 2;
+}
+.modal-dialog {
+    width: 600px;
+}
+.thumbnail {
+    margin-bottom: 6px;
+}
+#logo_vi {
+    margin-top: 50px;
+    width: 142px;
+}
+.pleca_mas {
+    background-color: white;
+    display: block;
+    height: 3px;
+    position: relative;
+    width: 20px;
+}
+.pleca_mas_bl {
+    background-color: white;
+    display: block;
+    height: 3px;
+    position: relative;
+    width: 20px;
+}
+.cono_mas {
+    color: white;
+    font-family: "Effra";
+    font-size: 12px;
+    font-weight: 900;
+}
+#conocer_mas {
+    padding-left: 0;
+    padding-right: 0;
+}
+#conocer_mas2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.panel {
+    background-color: transparent;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+#panel_dos {
+    background-color: transparent;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+#panel_tres {
+    background-color: transparent;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+#panel_cuatro {
+    background-color: transparent;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+#plus_uno {
+    display: block;
+    margin-left: 12px;
+    margin-top: -23px;
+    position: absolute;
+}
+#plus_dos {
+    display: block;
+    margin-left: 192px;
+    margin-top: 20px;
+    position: absolute;
+}
+#plus_tres {
+    display: block;
+    margin-left: 154px;
+    margin-top: 212px;
+    position: absolute;
+}
+#plus_cuatro {
+    display: block;
+    margin-left: -40px;
+    margin-top: 173px;
+    position: absolute;
+}
+#names {
+    padding-left: 0;
+}
+#tels {
+    padding-right: 0;
+}
+#lagos_head {
+    padding: 0;
+}
+#monterrey_head {
+    padding: 0;
+}
+.no_pad {
+    padding: 0;
+}
+#par_li {
+    padding: 0;
+}
+#par_stro {
+    padding: 0;
+}
+#logo {
+    margin-top: 0;
+    width: 150px;
+}
+.menu_choice {
+    color: #5e5e5e;
+    font-family: "Effra";
+    font-size: 12px;
+    font-weight: 900;
+}
+#modulo_1 {
+    display: block;
+    margin-top: 200px;
+    position: relative;
+}
+#tit_bl_light {
+    color: white;
+    font-family: "Effra";
+    font-size: 30px;
+    font-weight: lighter;
+}
+.tit_bl_strong {
+    color: white;
+    font-family: "Effra";
+    font-size: 28px;
+    font-weight: 900;
+    text-shadow: 4px 4px 2px rgb(150, 150, 150);
+}
+#parr_video {
+    color: white;
+    font-family: "Effra";
+    font-size: 12px;
+}
+#cono_btn_vid {
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    left: 50%;
+    margin-left: -110px;
+    margin-top: 440px;
+    position: absolute;
+    top: 0;
+    width: 220px;
+}
+#con_mas {
+    color: white;
+    font-family: "Effra";
+    font-weight: 900;
+    text-align: center;
+}
+.linea {
+    z-index: 4;
+}
+#empacado {
+    width: 249px;
+}
+.min {
+    font-size: 10px;
+}
+#logo_bl {
+    width: 351px;
+}
+#conectamos_est {
+}
+#el_rec {
+    width: 100%;
+}
+#log_minis {
+    width: 320px;
+}
+#el_vid_icon {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 46px;
+    width: 200px;
+}
+#bolsa {
+    width: 180px;
+}
+#video_fondo {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+#info_banner_home {
+    display: block;
+    position: absolute;
+}
+.titulo_banner {
+    color: #fff;
+    margin-left: 25%;
+    margin-top: 270px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 50%;
+    z-index: 99999999;
+}
+#videos_home {
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+#inicio {
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+}
+#logos_grises {
+    width: 300px;
+}
+#log_minis {
+    width: 280px;
+}
+#milky_bottle {
+    margin-top: 0;
+    width: 90%;
+}
+#iso_img {
+    display: block;
+    margin-left: 0;
+    width: 60px;
+}
+#header_menu > li > a {
+    color: white;
+    font-size: 11px;
+    margin-top: 11px;
+    padding: 9px;
+}
+.tooltip {
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    position: relative;
+}
+.tooltip .tooltiptext {
+    background-color: black;
+    border-radius: 6px;
+    bottom: 100%;
+    color: #fff;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    transition: opacity 1s ease 0s;
+    visibility: hidden;
+    width: 120px;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    opacity: 1;
+    visibility: visible;
+}
+#el_div_servicios {
+    margin-top: 70px;
+}
+.carousel-caption {
+    display: none;
+}
+#el_somos {
+    display: none;
+}
+#header_menu > li > a {
+    color: white;
+    font-size: 13px;
+    margin-top: 11px;
+    padding: 9px;
+}
+@media (max-width: 1200px) {
+.btn_idioma {
+}
+#carousel_main {
+}
+.carousel-control {
+    margin-top: 100px;
+}
+#elemen_1 {
+    background-size: 216% auto;
+}
+#names {
+    padding-left: 0;
+    padding-right: 0;
+}
+#tels {
+    padding-left: 0;
+    padding-right: 0;
+}
+#modulo_5 {
+    margin-top: 50px;
+}
+.template_panel_carousel {
+    height: 400px;
+}
+#modulo_1 {
+    display: block;
+    margin-top: 82px;
+    position: relative;
+}
+#certificaciones {
+    background-size: 137% auto;
+}
+#el_somos {
+    display: none;
+}
+#header_menu > li > a {
+    color: white;
+    font-size: 13px;
+    margin-top: 11px;
+    padding: 9px;
+}
+}
+@media (max-width: 992px) {
+.btn_idioma {
+}
+#carousel_main {
+}
+.carousel-control {
+    margin-left: 20px;
+    margin-right: -150px;
+    margin-top: 210px;
+}
+#header_menu > li > a {
+    color: white;
+    font-size: 11px;
+    margin-top: 11px;
+    padding: 9px;
+}
+#certificaciones {
+    background-size: 137% auto;
+}
+.bl_parr {
+    color: white;
+    font-family: "Effra";
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: left;
+}
+#bolsa {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 180px;
+}
+#logo_vi {
+    width: 100px;
+}
+#elemen_1 {
+    background-size: 210% auto;
+    height: 100%;
+}
+#names {
+    padding-left: 0;
+}
+#tels {
+    padding-right: 0;
+}
+#conectamos_est {
+    margin-left: 50px;
+}
+#modulo_9 {
+    display: block;
+    margin-top: 0;
+    position: relative;
+}
+#logo {
+    margin-top: 0;
+    width: 150px;
+}
+#info_empresa {
+    margin-top: 0;
+}
+.azul_mini {
+    color: white;
+}
+#azul_mini_pleca {
+    background-color: #3a90db;
+}
+#certificada_tit {
+    font-size: 45px;
+}
+#fila_logos {
+    width: 90%;
+}
+#body_azul {
+    background-color: #0083ff;
+}
+#info_gale {
+    margin-top: 110px;
+}
+#parr_footer {
+    color: #d2d2d2;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+.titulo_light {
+    font-size: 33px;
+}
+.titulo_strong {
+    font-size: 33px;
+}
+#right_arrow {
+    display: block;
+    margin-left: 0;
+    margin-top: 130px;
+    position: absolute;
+}
+#modulo_3 {
+    margin-top: 0;
+}
+#logos_grises {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 286px;
+}
+.sub {
+    color: #4b4b4b;
+    font-family: "Effra";
+    font-size: 19px;
+    text-align: center;
+}
+.strongs {
+    font-size: 28px;
+    line-height: 22px;
+}
+#somos {
+    font-family: "Effra";
+    font-size: 28px;
+    line-height: 22px;
+}
+#modulo_5 {
+    margin-left: 15px;
+    margin-top: 0;
+}
+.template_panel_carousel {
+    margin-left: 15%;
+    width: 370px;
+}
+.derecha {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: right;
+}
+#modulo_6 {
+    margin-top: 1310px;
+}
+.topi {
+    height: 200px;
+    margin-top: 50px;
+}
+.conectamos {
+    color: white;
+    font-family: "Effra Bold";
+    font-size: 30px;
+    line-height: 30px;
+}
+.marketing {
+    color: white;
+    font-family: "Effra";
+    font-size: 86px;
+    font-weight: 900;
+    line-height: 50px;
+}
+#milk_bottles {
+    margin-left: -200px;
+}
+.sub_heavy_azul {
+    color: #0083ff;
+    margin-right: 30px;
+    text-align: right;
+}
+.parr {
+    color: black;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    text-align: justify;
+}
+.pleca_negra {
+    background-color: white;
+    float: right;
+    margin-right: 33px;
+    position: relative;
+    width: 30px;
+}
+.icon_vid {
+    margin-left: 100px;
+    margin-top: 64px;
+    width: 30%;
+}
+.light {
+    font-size: 60px;
+}
+#alta {
+    font-size: 60px;
+}
+#logo_conta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 300px;
+}
+#cargador {
+    margin-right: -40px;
+}
+.pleca_mas {
+    background-color: #3a90db;
+}
+#cert {
+    margin-top: 150px;
+}
+#certificaciones {
+    height: 600px;
+}
+#modulo_6 {
+    margin-top: -120px;
+}
+#body_azul {
+    background-color: #0083ff;
+}
+#certificaciones {
+    background-size: 133% auto;
+}
+#el_somos {
+    display: none;
+}
+#elemen_1 {
+    background-size: 289% auto;
+}
+}
+@media (max-width: 768px) {
+.btn_idioma {
+    float: none;
+    width: 30%;
+}
+#carousel_main {
+}
+.carousel-control {
+}
+.contenido_servicios {
+    margin-bottom: -20px;
+    margin-top: 660px;
+    position: relative;
+    top: 0;
+}
+.carousel-control {
+    margin-right: auto;
+    top: -10%;
+}
+#modulo_4 {
+    background-color: transparent;
+    background-image: url("../images/fondo_2.jpg");
+    background-position: 15px bottom;
+    background-repeat: no-repeat;
+    background-size: 125% auto;
+    border-color: transparent;
+    display: block;
+    height: 1333px;
+    position: relative;
+}
+#elemen_1 {
+    background-size: 720% auto;
+    height: 100%;
+}
+#bolsa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+#modulo_1 {
+    margin-left: 10px;
+    margin-top: 110px;
+}
+#el_rotador {
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+#servicios {
+    height: auto;
+}
+#body_azul {
+    background-color: #0083ff;
+}
+#conectamos_est {
+    margin-left: 50px;
+}
+#modulo_9 {
+    display: block;
+    margin-top: 0;
+    position: relative;
+}
+#logo {
+    margin-top: 0;
+    width: 150px;
+}
+#info_empresa {
+    margin-top: 0;
+}
+.azul_mini {
+    color: white;
+}
+#azul_mini_pleca {
+    background-color: #3a90db;
+}
+#certificada_tit {
+    font-size: 45px;
+}
+#fila_logos {
+    width: 90%;
+}
+#body_azul {
+    background-color: #0083ff;
+}
+#info_gale {
+    margin-top: 0;
+}
+#parr_footer {
+    color: #d2d2d2;
+    font-size: 9px;
+    margin-top: 10px;
+    text-align: center;
+}
+.titulo_light {
+    font-size: 33px;
+}
+.titulo_strong {
+    font-size: 33px;
+}
+#right_arrow {
+    display: block;
+    margin-left: 0;
+    margin-top: 130px;
+    position: absolute;
+}
+#modulo_3 {
+    margin-top: 0;
+}
+#logos_grises {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 286px;
+}
+.sub {
+    color: #4b4b4b;
+    font-family: "Effra";
+    font-size: 19px;
+    text-align: center;
+}
+.strongs {
+    font-size: 28px;
+    line-height: 32px;
+}
+#somos {
+    font-family: "Effra";
+    font-size: 25px;
+    line-height: 22px;
+}
+#modulo_5 {
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+}
+.template_panel_carousel {
+    height: 470px;
+    margin-bottom: 10px;
+    margin-left: 16%;
+    margin-top: 0;
+    max-width: 330px;
+    width: 70%;
+}
+.derecha {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: right;
+}
+#modulo_6 {
+    margin-top: 1310px;
+}
+.topi {
+    margin-top: 50px;
+}
+.conectamos {
+    color: white;
+    font-family: "Effra Bold";
+    font-size: 30px;
+    line-height: 30px;
+}
+.marketing {
+    color: white;
+    font-family: "Effra";
+    font-size: 86px;
+    font-weight: 900;
+    line-height: 50px;
+}
+#milk_bottles {
+    margin-left: -200px;
+}
+.sub_heavy {
+    color: #2e353a;
+    margin-right: 30px;
+    text-align: right;
+}
+.sub_heavy {
+    color: #2e353a;
+    margin-right: 20px;
+    text-align: right;
+}
+.parr {
+    color: black;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    text-align: justify;
+}
+.pleca_negra {
+    background-color: white;
+    float: right;
+    margin-right: 33px;
+    position: relative;
+    width: 30px;
+}
+.icon_vid {
+    margin-left: 100px;
+    margin-top: 64px;
+    width: 30%;
+}
+.light {
+    font-size: 60px;
+}
+#alta {
+    font-size: 60px;
+}
+#names {
+    padding-left: 0;
+    padding-right: 0;
+}
+#tels {
+    padding-left: 0;
+    padding-right: 0;
+}
+#logo_conta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+#cargador {
+    margin-right: -40px;
+}
+.pleca_mas {
+    background-color: #3a90db;
+}
+#cert {
+    margin-top: 150px;
+}
+#certificaciones {
+    height: 600px;
+}
+#el_rec {
+    width: 200px;
+}
+#plus_uno {
+    display: block;
+    margin-left: -20px;
+    margin-top: -30px;
+    position: absolute;
+}
+#plus_dos {
+    display: block;
+    margin-left: 130px;
+    margin-top: 0;
+    position: absolute;
+}
+#plus_tres {
+    display: block;
+    margin-left: 106px;
+    margin-top: 144px;
+    position: absolute;
+}
+#plus_cuatro {
+    display: block;
+    margin-left: -50px;
+    margin-top: 110px;
+    position: absolute;
+}
+#modulo_6 {
+    display: block;
+    margin-top: -200px;
+    position: relative;
+}
+#milky_bottle {
+    margin-top: 0;
+}
+#videos_home {
+    background-color: #0093e1;
+    border-color: transparent;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+#log_minis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+#certificaciones {
+    background-size: 153% auto;
+}
+.tele_cent {
+    text-align: center;
+}
+#servicios_conmersa {
+    text-align: center;
+}
+#el_somos {
+    display: block;
+    margin-top: 60px;
+}
+#link_sexta_gama {
+    display: block;
+    height: 1940px;
+    position: absolute;
+    width: 100%;
+}
+.links_externos {
+    display: block;
+    height: 1940px;
+    position: relative;
+    width: 50%;
+}
+}
+@media (width: 768px) {
+.btn_idioma {
+}
+#carousel_main {
+}
+#texto_infografia {
+}
+.carousel-control {
+}
+#accordion {
+    margin-top: -650px;
+    top: 0;
+}
+#modulo_1 {
+    margin-top: 68px;
+}
+#modulo_3 {
+    margin-top: 0;
+}
+#modulo_5 {
+}
+#modulo_6 {
+    display: block;
+    margin-top: -200px;
+    position: relative;
+}
+#el_somos {
+    display: block;
+    margin-top: 70px;
+}
+#servicios_conmersa {
+    text-align: left;
+}
+#link_sexta_gama {
+    display: block;
+    height: 1940px;
+    position: absolute;
+    width: 100%;
+}
+.links_externos {
+    display: block;
+    height: 1940px;
+    position: relative;
+    width: 50%;
+}
+}
+@media screen and (max-width: 480px) {
+.btn_idioma {
+    width: 100%;
+}
+#los_controles_main {
+    left: -170px;
+}
+#carousel_main {
+}
+#link_sexta_gama {
+    display: block;
+    height: 1940px;
+    position: absolute;
+    width: 100%;
+}
+.links_externos {
+    display: block;
+    height: 1940px;
+    position: relative;
+    width: 50%;
+}
+.carousel-control {
+    position: absolute;
+    top: -60px;
+}
+.banner_r {
+}
+#el_rotador {
+    margin-top: 0;
+}
+#servicios {
+    background-color: transparent;
+    background-image: url("../images/fondo_3.jpg");
+    background-position: center top;
+    background-repeat: repeat-y;
+    border-color: transparent;
+    height: auto;
+}
+#modulo_4 {
+    height: 1200px;
+}
+#modulo_6 {
+    display: block;
+    margin-top: 0;
+    position: relative;
+}
+#logo {
+    margin-top: 0;
+    width: 150px;
+}
+#info_empresa {
+    margin-top: 0;
+}
+.azul_mini {
+    color: #3a90db;
+}
+#azul_mini_pleca {
+    background-color: #3a90db;
+}
+#certificada_tit {
+    font-size: 45px;
+}
+#fila_logos {
+    width: 90%;
+}
+#body_azul {
+    background-color: #0083ff;
+}
+#info_gale {
+    margin-top: 0;
+}
+#parr_footer {
+    color: #d2d2d2;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+.titulo_light {
+    font-size: 29px;
+}
+.titulo_strong {
+    font-size: 29px;
+}
+#right_arrow {
+    margin-left: 0;
+    margin-top: 125px;
+}
+#modulo_3 {
+    margin-top: 0;
+}
+#logos_grises {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+.sub {
+    color: #4b4b4b;
+    font-family: "Effra";
+    font-size: 19px;
+    text-align: center;
+}
+.strongs {
+    font-size: 28px;
+    line-height: 21px;
+    padding-right: 15px;
+}
+#somos {
+    font-family: "Effra";
+    font-size: 28px;
+    line-height: 23px;
+    padding-right: 15px;
+}
+#modulo_5 {
+    margin-left: 15px;
+    margin-top: 0;
+}
+.template_panel_carousel {
+    left: 50%;
+    margin-left: -140px;
+    padding: 10px;
+    width: 280px;
+}
+.derecha {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: right;
+}
+.topi {
+    margin-top: 40px;
+}
+.conectamos {
+    color: white;
+    font-family: "Effra Bold";
+    font-size: 30px;
+    line-height: 30px;
+}
+.marketing {
+    color: white;
+    font-family: "Effra";
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 50px;
+}
+#slogan_bullets {
+    margin-top: 70px;
+}
+#milk_bottles {
+    margin-left: 0;
+}
+.sub_heavy {
+    color: #246bc2;
+    float: none;
+    margin-right: 30px;
+    text-align: center;
+}
+.sub_heavy_azul {
+    color: #0083ff;
+    margin-right: 30px;
+    text-align: right;
+}
+.parr {
+    color: black;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    text-align: justify;
+}
+.pleca_negra {
+    background-color: white;
+    float: right;
+    margin-right: 33px;
+    position: relative;
+    width: 30px;
+}
+.icon_vid {
+    margin-left: 100px;
+    margin-top: 64px;
+    width: 30%;
+}
+.light {
+    font-size: 60px;
+}
+#alta {
+    font-size: 60px;
+}
+#names {
+    padding-left: 0;
+    padding-right: 0;
+}
+#tels {
+    padding-left: 0;
+    padding-right: 0;
+}
+#logo_conta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 300px;
+}
+#cargador {
+    margin-right: -40px;
+}
+.pleca_mas {
+    background-color: #3a90db;
+}
+#cert {
+    margin-top: 150px;
+}
+#certificaciones {
+    height: 600px;
+}
+.tit_bl_strong {
+    font-size: 22px;
+}
+#el_vid_icon {
+    display: block;
+    margin-left: 53px;
+    margin-right: auto;
+    margin-top: 46px;
+    width: 60%;
+}
+#modulo_9 {
+    display: block;
+    margin-top: 0;
+    position: relative;
+}
+#info_empa {
+    display: block;
+    margin-left: 43px;
+    margin-top: 24px;
+    position: absolute;
+}
+#conectamos_est {
+    margin-left: 10px;
+}
+#el_rec {
+    width: 240px;
+}
+#plus_uno {
+    display: block;
+    margin-left: -8px;
+    margin-top: -22px;
+    position: absolute;
+}
+#plus_dos {
+    display: block;
+    margin-left: 157px;
+    margin-top: 6px;
+    position: absolute;
+}
+#plus_tres {
+    display: block;
+    margin-left: 130px;
+    margin-top: 180px;
+    position: absolute;
+}
+#plus_cuatro {
+    display: block;
+    margin-left: -40px;
+    margin-top: 144px;
+    position: absolute;
+}
+#modulo_4 {
+    background-size: 730px auto;
+    height: 1223px;
+}
+#elemen_1 {
+    background-size: 1219% auto;
+    height: auto;
+}
+#log_minis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.parrafo_empresa {
+    padding-right: 15px;
+}
+.sub_gris {
+    padding-right: 15px;
+}
+.ih-item img {
+    margin-left: 49px;
+}
+#info_empresa {
+    margin-top: 0;
+}
+#videos_home {
+    background-color: #0093e1;
+    border-color: transparent;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+#modulo_1 {
+    display: block;
+    margin-top: 140px;
+    position: relative;
+}
+#info_banner_home {
+    margin-left: 10px;
+}
+#tit_bl_light {
+    font-size: 19px;
+}
+.titulo_banner {
+    left: 0;
+    margin-left: 1%;
+    width: 300px;
+}
+#logo_bl {
+    width: 210px;
+}
+#img_bolsa {
+    margin-top: 20px;
+}
+#bolsa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+#el_div_servicios {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    width: 360px;
+}
+#servicios_conmersa {
+    text-align: center;
+}
+#log_minis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+.tele_cent {
+    text-align: center;
+}
+#certificaciones {
+    background-size: 233% auto;
+}
+#el_somos {
+    color: #002c50;
+    display: block;
+    font-size: 27px;
+    text-align: center;
+}
+#nom_bullets {
+    color: white;
+    font-size: 16px;
+}
+#nom_bullets {
+    color: white;
+    font-size: 16px;
+}
+.parrafo_empresa {
+    font-family: "Effra";
+    font-size: 13px;
+}
+#servicios_conmersa {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+.bl_parr {
+    color: white;
+    font-family: "Effra";
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 14px;
+    text-align: left;
+}
+}

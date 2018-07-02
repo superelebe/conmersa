@@ -1,0 +1,242 @@
+
+#right_banner {
+    left: auto;
+    position: absolute;
+    right: 0;
+}
+.main_noticias {
+    position: relative;
+    width: 100%;
+}
+.design_noticias {
+    margin-left: 20px;
+    position: relative;
+}
+#noticias_seccion {
+    color: #7f7f7f;
+    font-family: "__Open Sans_5";
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+#pleca_horizontal {
+    background-color: #8dbb23;
+    display: block;
+    height: 3px;
+    position: relative;
+    width: 100%;
+}
+.noti_seccion {
+    display: block;
+    height: 240px;
+    margin-top: 20px;
+    padding: 0;
+    position: relative;
+}
+#noti_img {
+    padding: 0;
+}
+.id_foto {
+    background-color: #8dbb23;
+    left: 218px;
+    margin-right: 0;
+    margin-top: 20px;
+    padding-bottom: 0;
+    position: absolute;
+    width: 58px;
+    z-index: 236;
+}
+.fecha {
+    color: #ffffff;
+    font-family: "__Open Sans_5";
+    font-weight: 700;
+    margin-left: 8px;
+}
+#noti_text {
+    left: 31px;
+    padding: 0;
+}
+#pleca_vertical {
+    background-color: #8dbb23;
+    height: 207px;
+    left: 50px;
+    margin-right: 0;
+    position: relative;
+    width: 3px;
+}
+.titulo_noticia {
+    color: #7f7f7f;
+    font-family: "__Open Sans_5";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#pleca_modal {
+    animation-duration: 0.6s;
+    animation-name: zoom;
+    background-color: #8dbb23;
+    display: block;
+    height: 3px;
+    margin-left: 30%;
+    margin-top: 10px;
+    position: relative;
+    width: 40%;
+}
+#pleca_modal_titulo {
+    animation-duration: 0.6s;
+    animation-name: zoom;
+    background-color: #8dbb23;
+    display: block;
+    height: 3px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-top: 10px;
+    position: relative;
+    width: 40%;
+}
+.parr_modal {
+    animation-duration: 0.6s;
+    animation-name: zoom;
+    color: white;
+    font-family: "__Open Sans_5";
+    font-size: 15px;
+    font-weight: lighter;
+    height: 500px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    margin-bottom: 100px;
+    margin-left: 33%;
+    margin-top: 20px;
+    text-align: left;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+#myImg:hover {
+    opacity: 0.7;
+}
+.modal {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    height: 100%;
+    left: 0;
+    margin-bottom: 100px;
+    overflow-y: auto;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+.modal-content {
+    display: block;
+    margin: auto;
+    max-width: 700px;
+    width: 80%;
+}
+#caption {
+    color: #7f7f7f;
+    display: block;
+    font-family: "__Open Sans_5";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 10px auto 0;
+    padding: 0;
+    text-align: center;
+}
+.modal-content, #caption {
+    animation-duration: 0.6s;
+    animation-name: zoom;
+}
+@keyframes zoom {
+0% {
+    transform: scale(0);
+}
+100% {
+    transform: scale(1);
+}
+}
+@keyframes zoom {
+0% {
+    transform: scale(0);
+}
+100% {
+    transform: scale(1);
+}
+}
+.close {
+    color: #8dbb23;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    transition: all 0.3s ease 0s;
+}
+.close:hover, .close:focus {
+    color: #8dbb23;
+    cursor: pointer;
+    text-decoration: none;
+}
+#cerrar_modal {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    right: 411px;
+    top: 59px;
+    transition: all 0.3s ease 0s;
+}
+#cerrar_modal:hover, #cerrar_modal:focus {
+    color: #8dbb23;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media (max-width: 1200px) {
+#right_banner {
+}
+#pleca_vertical {
+    background-color: red;
+    height: 207px;
+    left: 110px;
+    margin-right: 0;
+    position: relative;
+    width: 3px;
+}
+}
+@media only screen and (max-width: 700px) {
+#right_banner {
+}
+.modal-content {
+    width: 100%;
+}
+}
+@media (max-width: 540px) {
+#right_banner {
+}
+.noti_seccion {
+    display: block;
+    height: 410px;
+    margin-top: 20px;
+    padding: 0;
+    position: relative;
+}
+#noti_text {
+    left: 13px;
+    margin-top: -190px;
+    padding: 0;
+}
+#pleca_vertical {
+    background-color: #8dbb23;
+    height: 207px;
+    left: -14px;
+    margin-right: 0;
+    position: relative;
+    width: 3px;
+}
+}

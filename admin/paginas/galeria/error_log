@@ -1,0 +1,125 @@
+[20-Jan-2017 17:12:14 America/Chicago] PHP Fatal error:  Call to a member function consulta() on a non-object in /home2/elebegr1/public_html/test/conmersaWEB/admin/paginas/galeria/index.php on line 3
+[20-Jan-2017 19:20:49 America/Chicago] PHP Fatal error:  Call to a member function consulta() on a non-object in /home2/elebegr1/public_html/test/conmersaWEB/admin/paginas/galeria/index.php on line 3
+[23-Jan-2017 09:40:19 America/Chicago] PHP Fatal error:  Call to a member function consulta() on a non-object in /home2/elebegr1/public_html/test/conmersaWEB/admin/paginas/galeria/index.php on line 3
+[27-Feb-2017 13:49:28 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Feb-2017 13:49:28 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Feb-2017 13:49:28 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Feb-2017 13:49:28 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Feb-2017 17:55:36 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Feb-2017 17:55:36 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[10-Mar-2017 17:47:45 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[10-Mar-2017 17:47:45 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[10-Mar-2017 17:48:07 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[10-Mar-2017 17:48:07 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[10-Mar-2017 17:48:09 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[10-Mar-2017 17:48:09 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[10-Mar-2017 17:48:10 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[10-Mar-2017 17:48:10 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[13-Mar-2017 09:32:07 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[13-Mar-2017 09:32:07 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[13-Mar-2017 09:37:28 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[13-Mar-2017 09:37:28 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 08:56:50 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 08:56:50 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:03:26 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:03:26 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:03:27 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:03:27 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:03:28 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:03:28 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:04:13 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:04:13 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:05:08 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:05:08 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:37:57 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:37:57 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:38:09 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:38:09 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:38:10 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 09:38:10 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 10:06:31 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 10:06:31 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 15:14:46 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 15:14:46 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 15:14:47 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 15:14:47 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 15:15:11 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 15:15:11 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 15:15:12 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[18-Apr-2017 15:15:12 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[24-Apr-2017 12:20:45 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[24-Apr-2017 12:20:45 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[24-Apr-2017 12:20:46 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[24-Apr-2017 12:20:46 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[11-May-2017 09:23:17 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[11-May-2017 09:23:17 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[11-May-2017 09:23:18 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[11-May-2017 09:23:18 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[11-May-2017 09:25:44 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[11-May-2017 09:25:44 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:25:59 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:25:59 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:26:00 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:26:00 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:26:12 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:26:12 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:26:13 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:26:13 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:31:22 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:31:22 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:31:23 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[02-Jun-2017 17:31:23 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[03-Jun-2017 11:21:45 America/Denver] PHP Notice:  Undefined variable: mysql in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[03-Jun-2017 11:21:45 America/Denver] PHP Fatal error:  Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[13-Jul-2017 18:01:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[13-Jul-2017 18:07:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[13-Jul-2017 18:07:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[13-Jul-2017 18:07:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[15-Sep-2017 11:28:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Nov-2017 12:13:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Nov-2017 12:13:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Nov-2017 12:22:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Nov-2017 12:22:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Nov-2017 12:23:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Nov-2017 12:23:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Nov-2017 12:25:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
+[27-Nov-2017 12:25:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function consulta() on null in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/elebegr1/public_html/conmersa.com/admin/paginas/galeria/index.php on line 3
