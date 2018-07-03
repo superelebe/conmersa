@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: white;
+    background-color: white;
     z-index: 9999;
     margin-top: 70px;
 }
@@ -97,6 +97,22 @@
     overflow: hidden;
     text-align: center;
     margin-left: 5px;
+}
+
+.paginationjs .paginationjs-pages {
+    float: left;
+    left: 50%;
+    margin-left: -7%;
+    margin-top: 31px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: 9;
+    transform: translateX(-50%);
+}
+
+.fondo_imagen_vacante{  
+    background-image: url("../img/lag06_2.png");
 }
 
 #right_banner {

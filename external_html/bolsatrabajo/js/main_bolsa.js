@@ -106,7 +106,7 @@ $(".conten_gral").css("height","1060px");
           	$.each(data, function(index, item) {
 
      			console.log(item.fecha_ini);
-         		html+=' <li><img alt="'+item.nombre+'" class="shadow" src="admin/'+item.file_name+'" class="banner_empresa"><p class="small mapeq_blue"><span style="font-size:14px;"> Vigencia : '+item.fecha_ini+'</span> - <span style="font-size:14px;">'+item.fecha_fin+'</span> </span> || <span style="font-size:14px;">Detalles: '+item.descripcion+'</span></p></li>';
+         		html+=' <li>potato<img alt="'+item.nombre+'" class="shadow" src="admin/'+item.file_name+'" class="banner_empresa"><p class="small mapeq_blue"><span style="font-size:14px;"> Vigencia : '+item.fecha_ini+'</span> - <span style="font-size:14px;">'+item.fecha_fin+'</span> </span> || <span style="font-size:14px;">Detalles: '+item.descripcion+'</span></p></li>';
 			 });
           
             return html;
@@ -156,7 +156,7 @@ $(".conten_gral").css("height","1060px");
 
          			console.log(this);
 
-         			$('body').append('<div id="detalle_vacante" >'+
+         			$('body').append('<div id="detalle_vacante" class="fondo_imagen_vacante" >'+
 
          				'<div class="cerrar_vacante"> X </div>'+
          				'<div class="detalle_vac_in col-md-10 col-md-offset-2">'+
@@ -187,11 +187,17 @@ $(".conten_gral").css("height","1060px");
 
 			         		'<p><strong>Publicado:</strong>'+item.fecha_ini+'</p>'+
 			         		'<p><strong>Vigencia:</strong>'+item.fecha_fin+'</p>'+
-			         		'<a href="#" id="vacante_btn'+index+'" class="contacto_vacante">enviar solicitud</a>'+
+			         		'<a href="#" id="vacante_btn" class="vacante_btn'+index+'" data-idvacante='+ item+' class="contacto_vacante">enviar solicitud</a>'+
 		         		' </div>'
 					);
          			// console.log("CLICK");
 
+	let idvacante = document.getElementById('vacante_btn');
+	idvacante.addEventListener('click', potato);
+
+	function potato(){
+		console.log('lala');
+	}
 
          			$('.cerrar_vacante').click(function(event){
          				event.preventDefault();
@@ -245,12 +251,14 @@ var paginatoneitor= function(data_proyectos){
 
 
 
-
-
 	$(document).ready(function(){
 
 
 		console.log("________BOLSA DE TRABAJO-----");
+
+
+
+
 
 
 
@@ -261,18 +269,10 @@ var paginatoneitor= function(data_proyectos){
       }
     })
       .done(function( data ) {
-
-
         var data=JSON.parse(data);  
-
         console.log("---------data");
       	console.log(data);
-
-
         paginatoneitor(data);
-
-
-
     });
 
 
@@ -430,7 +430,6 @@ var paginatoneitor= function(data_proyectos){
 	 //    $(".tienda_lagos").hide();
 
 });
-
 
 
 
