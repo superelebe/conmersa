@@ -35,6 +35,7 @@
                             <label>MAIL</label><br>
                             <input type="text" placeholder="Escribe tu Mail" class="validate[required,custom[mail]]" name="email" style="width:50%;"/>
                             <br><br>
+
                           </div>
 
                           <div class="">
@@ -50,14 +51,17 @@
                           </div>
 
                           <div class="">
-                              <label>Imagenes:</label><br>
-                              <p class="small">Seleccione el archivo WORD o PDF:
-                              <input type="file" class="validate[required]" name="doc_1" id="doc_1"/> </p>
+                           <p class="small">Seleccione el archivo WORD o PDF:</p>
+                           <label for="doc_1" class="btn_vacantes">Adjuntar imagenes:</label><br>
+                           <div class="botonadjuntar"> 
+                             <input type="file" class="validate[required] " name="doc_1" id="doc_1"/> 
+                           </div>
+
                           </div>
 
                          
                           <div class="">
-                            <input type="submit" src="images/btn_enviar.png" alt="Submit Form" value="Enviar datos"/>
+                            <input type="submit" class="btn_vacantes" src="images/btn_enviar.png" alt="Submit Form" value="Enviar datos"/>
                           </div>
                         </div>
 

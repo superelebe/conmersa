@@ -9,6 +9,31 @@
     margin-top: 70px;
 }
 
+.btn_vacantes {
+    font-size: 19px;
+    font-family: 'Effra';
+    overflow: visible;
+    border-radius: 3px;
+    position: relative;
+    background-color: #F3D213;
+    border: 2px solid #00509b;
+    color: #002C50;
+    display: block;
+    height: 30px;
+    text-align: center;
+}
+.botonadjuntar input[type='file'] {
+    display: none !important;
+}
+.ficha{
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+}
+.ficha label{
+    color: darkblue;
+    width: 50%;
+}
 
 .cerrar_vacante{
     background: #bbb;

@@ -113,11 +113,6 @@ $(".conten_gral").css("height","1060px");
 
 
         };
-
-
-
-
-
 	var template_vacantes= function(data) {
            
           var dataContainer=$('#lista_vacante');
@@ -139,7 +134,7 @@ $(".conten_gral").css("height","1060px");
     //      		console.log(item);
 
          		dataContainer.append(' <li class="'+item.nombre+'">'+
-         		'<h2>'+item.titulo+'</h2>'+
+         		'<h2 class="sub_heavy">'+item.titulo+'</h2>'+
          		'<h5><strong>Puesto:</strong>'+item.puesto+'</h5>'+
          		// '<h5><strong>Sueldo:</strong>'+item.sueldo+'</h5>'+
          		'<h6><strong>Tipo:</strong>'+item.nombre_tipo+'</h6>'+
@@ -187,17 +182,17 @@ $(".conten_gral").css("height","1060px");
 
 			         		'<p><strong>Publicado:</strong>'+item.fecha_ini+'</p>'+
 			         		'<p><strong>Vigencia:</strong>'+item.fecha_fin+'</p>'+
-			         		'<a href="#" id="vacante_btn" class="vacante_btn'+index+'" data-idvacante='+ item+' class="contacto_vacante">enviar solicitud</a>'+
+			         		'<a href="#" id="vacante_btn" class="vacante_btn'+index+'" data-idvacante='+ item.id_vacante+' class="contacto_vacante">enviar solicitud</a>'+
 		         		' </div>'
 					);
          			// console.log("CLICK");
 
-	let idvacante = document.getElementById('vacante_btn');
-	idvacante.addEventListener('click', potato);
+	let clickvacante = document.getElementById('vacante_btn');
+	let idvacante = clickvacante.dataset.idvacante;
+	clickvacante.addEventListener('click', function(){
+		potato(idvacante);
+	});
 
-	function potato(){
-		console.log('lala');
-	}
 
          			$('.cerrar_vacante').click(function(event){
          				event.preventDefault();
@@ -216,6 +211,38 @@ $(".conten_gral").css("height","1060px");
         };
 
 
+	function potato(id){
+		$('#detalle_vacante').html('');
+		if($('#detalle_vacante')){
+			console.log('lala');
+		}else{
+			console.log('lolo');
+		}
+		$('#detalle_vacante').append('<form id="form_vacante" method="post" action="external_html/bolsatrabajo/control.php" class="formulario_extra" name="contact_form">'+
+			' <input type="hidden" class="seccion" name="seccion" value="'+id+'"/> '+
+			'<label for="name">NOMBRE</label><br>'+
+			'<input type="text" placeholder="Escribe tu Nombre" class="validate[required,custom[nombre]]" name="nombre"/>'+
+			'<label>MAIL</label><br>'+
+			'<input type="text" placeholder="Escribe tu Mail" class="validate[required,custom[mail]]" name="email"/>'+
+			' <label>TEL.</label><br>'+
+			'<input type="text" placeholder="Escribe tu teléfono" class="validate[required]" name="tel"/>'+
+			' <label>MENSAJE</label><br>'+
+			'<textarea type="text" id="mensaje_vacante" class="validate[required]" placeholder="Escribe tu mensaje" name="msj" rows="8"/></textarea>'+
+			'<p class="small">Seleccione el archivo WORD o PDF:</p>'+
+			'<label for="doc_1" class="btn_vacantes">Adjuntar imagenes:</label><br>'+
+			'<div class="botonadjuntar"> '+
+			' <input type="file" class="validate[required] " name="doc_1" id="doc_1"/> '+
+			'</div>'+
+			' <input type="submit" class="btn_vacantes" src="images/btn_enviar.png" alt="Submit Form" value="Enviar datos"/>'+
+			'</form>'+
+         	'<div class="cerrar_vacante"> X </div>'
+         				);
+		$('.cerrar_vacante').click(function(event){
+         				event.preventDefault();
+         				console.log("CERRAR--------> X <----");
+         				$("#detalle_vacante").remove();
+         			});
+	}
 
 var paginatoneitor= function(data_proyectos){
 
